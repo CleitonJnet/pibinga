@@ -1,0 +1,63 @@
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.players .play {
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('../img/thumbnail.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.players .play:hover {
+    border: 5px solid #fff;
+    transition: 200ms ease-in-out;
+    transform: scale(1.2);
+    z-index: 999;
+    box-shadow: #000 0 0 40px 5px;
+}
+
+.players .play svg {
+    opacity: 0;
+}
+
+.players .play:hover svg {
+    height: 40px;
+    opacity: 1;
+    transition: 200ms ease-in-out;
+}
+
+.players .play .play-legend {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px; width: 100%;
+    background-color: rgba(255, 255, 255, .75);
+    font-weight: 600;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.players .play:hover .play-legend span {
+    display: inline-block;
+    animation: marquee 10s linear infinite both;
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+        padding-left: 100%;
+        transform: translateX(-100%);
+    }
+}

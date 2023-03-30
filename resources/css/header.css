@@ -1,0 +1,26 @@
+header { position: relative; padding-bottom: 50px;  z-index: 9998; background-color: white; }
+header .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; position: relative; padding-left: 20px; padding-right: 20px;}
+header .header-container .brand { padding: 14px 0 2px; }
+header .header-container .brand > div { display: flex; align-items: center; }
+header .header-container .brand > div svg { height: 55px; }
+header .header-container .brand > div .brand-text { width: 135px; font-size: 14pt; font-weight: 900; font-family: 'Times New Roman', Times, serif; padding-top: 10px; line-height: 18px; }
+header .header-container .brand > div .brand-text div:last-child { padding-left: 10px; }
+header .header-container .brand .slogan { font-size: 8pt; font-family: 'Copperplate-Gothic', serif; letter-spacing: 1px; padding: 2px 15px; background-color: rgba(0, 0, 0, .9); color: #f0ffff; border-radius: 5px; margin-left: 65px; }
+header .header-container > div { display: flex; align-items: center; }
+header .header-container > div .toggle-menu { display: none; }
+header .header-container > div .gift { background-color: #134079; padding: 7px 15px; border-radius: 10px; color: white; font-family: 'Nunito-SemiBold', sans-serif; font-size: 11pt; text-decoration: none; text-transform: none; margin-top: 14px; margin-bottom: 12px; }
+header .header-container > div .gift:hover { background-color: #2059A5; }
+
+header nav { background-color: rgba(34, 56, 67,.97); position: absolute; width: 100%; z-index: 9999; backdrop-filter: blur(5px); }
+header nav.fixed { position: fixed; top: 0; width: 100%;  z-index: 9998; }
+
+header nav svg { height: 100%; position: absolute; left: 20px; top: 0; fill: rgba(255, 255, 255,.5); padding: 7px 0;opacity: 0; }
+header nav svg.enable { opacity: 1; transition: 300ms linear all; }
+
+header nav ul { max-width: 1280px; margin: auto; display: flex; justify-content: center; }
+header nav ul li { border-bottom: solid 4px transparent; margin: 0 7px; transition: 300ms all; }
+header nav ul li:hover { border-bottom: solid 4px rgba(239, 170, 66, 0.7) ; border-radius: 0 0 4px 4px; background-color: #324752; transition: 300ms all; }
+header nav ul li.active { border-bottom: solid 4px rgb(239, 170, 66) ; border-radius: 0 0 4px 4px; background-color: #223843; }
+header nav ul li.active a { cursor: default; }
+header nav ul li a { padding: 14px 5px 12px; display: block; color: #d1d5db; font-size: 11pt; font-family: 'Nunito-SemiBold', sans-serif; }
+

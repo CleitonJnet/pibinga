@@ -1,0 +1,10 @@
+.page-gift { padding-top: 40px; padding-bottom: 40px; }
+.page-gift > div { display: grid; grid-template-columns: 4fr 3fr 3fr; gap: 5px; margin-top: 60px; }
+.page-gift > div > ul, .page-gift > div > div { background-color: rgba(255, 255, 255, 0.2); padding: 20px; border-radius: 5px; backdrop-filter: blur(10px); box-shadow: rgba(0,0,0,.1) 0 0 10px 2px; }
+.page-gift .info > div:nth-child(1) { font-size: 16pt; }
+.page-gift .info > div:nth-child(3) { font-weight: 700; margin-top: 40px; }
+.page-gift .info > div:nth-child(4) a { font-style: italic; }
+.page-gift .info > .phone a { font: 11pt; color: #5e5e5e; font-style: italic; }
+.page-gift .info > .phone span { color: rgba(137, 43, 226, 0.75); }
+.page-gift .pix { display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 14pt; }
+.page-gift .pix img { height: 150px;margin-top: 10px; }

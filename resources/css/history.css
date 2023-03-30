@@ -1,0 +1,5 @@
+.page-history { padding: 40px 20px; background-color: #193E69; -webkit-box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.75); }
+.page-history article { border-radius: 10px; border: solid 5px #193E69; box-shadow: 1px 1px 40px 10px rgba(0, 0, 0, .5); background-color: white; padding: 40px; }
+.page-history h1 { text-align: center; line-height: 30pt; text-indent: 40px; padding:10px 0; font-size: 30pt; border-bottom: #193E69 solid; font-weight: 700; border-radius: 0 0 4px 4px; }
+.page-history h2 { text-align: center; line-height: 30pt; text-indent: 40px; padding: 15px 0; font-size: 26px; color: #193E69; }
+.page-history p { text-align: justify; line-height: 22pt; text-indent: 40px; padding: 7px 0; }

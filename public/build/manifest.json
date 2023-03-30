@@ -1,0 +1,125 @@
+{
+  "resources/img/people.jpg": {
+    "file": "assets/people.c4f641b1.jpg",
+    "src": "resources/img/people.jpg"
+  },
+  "resources/img/foto.jpg": {
+    "file": "assets/foto.03fbfbff.jpg",
+    "src": "resources/img/foto.jpg"
+  },
+  "resources/img/church.jpg": {
+    "file": "assets/church.fbdc3f57.jpg",
+    "src": "resources/img/church.jpg"
+  },
+  "resources/fonts/cinzel.ttf": {
+    "file": "assets/cinzel.320b5630.ttf",
+    "src": "resources/fonts/cinzel.ttf"
+  },
+  "resources/fonts/Poppins-Regular.ttf": {
+    "file": "assets/Poppins-Regular.707fdc5c.ttf",
+    "src": "resources/fonts/Poppins-Regular.ttf"
+  },
+  "resources/fonts/nunito/Nunito-SemiBold.ttf": {
+    "file": "assets/Nunito-SemiBold.28d37096.ttf",
+    "src": "resources/fonts/nunito/Nunito-SemiBold.ttf"
+  },
+  "resources/fonts/nunito/Nunito-Bold.ttf": {
+    "file": "assets/Nunito-Bold.34f790c2.ttf",
+    "src": "resources/fonts/nunito/Nunito-Bold.ttf"
+  },
+  "resources/fonts/Copperplate Gothic Light.ttf": {
+    "file": "assets/Copperplate Gothic Light.607520e8.ttf",
+    "src": "resources/fonts/Copperplate Gothic Light.ttf"
+  },
+  "resources/fonts/Vollkorn-SemiBold.ttf": {
+    "file": "assets/Vollkorn-SemiBold.5b6ec7df.ttf",
+    "src": "resources/fonts/Vollkorn-SemiBold.ttf"
+  },
+  "resources/img/thumbnail.png": {
+    "file": "assets/thumbnail.ab524728.png",
+    "src": "resources/img/thumbnail.png"
+  },
+  "resources/fonts/BebasNeue-Regular.ttf": {
+    "file": "assets/BebasNeue-Regular.830ea186.ttf",
+    "src": "resources/fonts/BebasNeue-Regular.ttf"
+  },
+  "resources/fonts/nunito/Nunito-Regular.ttf": {
+    "file": "assets/Nunito-Regular.a278cc18.ttf",
+    "src": "resources/fonts/nunito/Nunito-Regular.ttf"
+  },
+  "resources/img/instagram.svg": {
+    "file": "assets/instagram.38fa25dc.svg",
+    "src": "resources/img/instagram.svg"
+  },
+  "resources/img/whatsapp.svg": {
+    "file": "assets/whatsapp.896bfdf0.svg",
+    "src": "resources/img/whatsapp.svg"
+  },
+  "resources/img/youtube.svg": {
+    "file": "assets/youtube.8f234740.svg",
+    "src": "resources/img/youtube.svg"
+  },
+  "resources/img/facebook.svg": {
+    "file": "assets/facebook.c0e63484.svg",
+    "src": "resources/img/facebook.svg"
+  },
+  "resources/img/background.jpg": {
+    "file": "assets/background.b05db3e6.jpg",
+    "src": "resources/img/background.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.22be8030.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_module.esm.f19bc425.js"
+    ]
+  },
+  "resources/js/script.js": {
+    "file": "assets/script.cadb1ae8.js",
+    "src": "resources/js/script.js",
+    "isEntry": true,
+    "imports": [
+      "_module.esm.f19bc425.js"
+    ],
+    "css": [
+      "assets/script.1d30b0b0.css"
+    ],
+    "assets": [
+      "assets/cinzel.320b5630.ttf",
+      "assets/Poppins-Regular.707fdc5c.ttf",
+      "assets/Copperplate Gothic Light.607520e8.ttf",
+      "assets/Vollkorn-SemiBold.5b6ec7df.ttf",
+      "assets/Nunito-SemiBold.28d37096.ttf",
+      "assets/Nunito-Bold.34f790c2.ttf",
+      "assets/Nunito-Regular.a278cc18.ttf",
+      "assets/BebasNeue-Regular.830ea186.ttf",
+      "assets/background.b05db3e6.jpg",
+      "assets/foto.03fbfbff.jpg",
+      "assets/church.fbdc3f57.jpg",
+      "assets/people.c4f641b1.jpg",
+      "assets/whatsapp.896bfdf0.svg",
+      "assets/instagram.38fa25dc.svg",
+      "assets/facebook.c0e63484.svg",
+      "assets/youtube.8f234740.svg",
+      "assets/thumbnail.ab524728.png"
+    ]
+  },
+  "_module.esm.f19bc425.js": {
+    "file": "assets/module.esm.f19bc425.js"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.4bbc373c.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/script.css": {
+    "file": "assets/script.1d30b0b0.css",
+    "src": "resources/js/script.css"
+  },
+  "resources/css/style.css": {
+    "file": "assets/style.6cc49494.css",
+    "src": "resources/css/style.css",
+    "isEntry": true
+  }
+}
